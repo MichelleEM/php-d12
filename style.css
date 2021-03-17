@@ -1,0 +1,117 @@
+body
+{
+	background-color: #000000;
+	font-family: Arial;
+}
+.miclase
+{
+	text-shadow: 
+	3.5px 3.5px 1px gray,
+	5px 5px 2px black;
+	text-align: center;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 60px;
+}
+.miclase2
+{
+	text-shadow: 
+	3.5px 3.5px 1px gray,
+	5px 5px 2px black;
+	text-align: center;
+	text-align: center;
+	font-style: normal;
+	color: #FFFFFF;
+	font-size: 50px;
+
+}
+
+*{box-sizing:border-box;}
+
+form{
+	width:640px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: #FFFFFF;
+}
+
+form label{
+	width:150px;
+	font-weight:bold;
+	display:inline-block;
+	color:#000000;
+}
+
+form input[type="text"],
+form input[type="nombre"]{
+	width:608px;
+	padding:3px 10px;
+	border:1px solid #000000;
+	border-radius:3px;
+	background-color:#000000;
+	margin:8px 0;
+	display:inline-block;
+	color:#FFFFFF;
+}
+
+form input[type="submit"]{
+	width:50%;
+	padding:8px 16px;
+	margin-top:32px;
+	margin: auto;
+	border:1px solid #000000;
+	border-radius:5px;
+	display:block;
+	color:#FFFFFF;
+	background-color:#000000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #000000;
+	border-radius:3px;
+	background-color:#000000;			
+	margin:8px 0;
+	resize:none;
+	display:block;
+	color: #FFFFFF;
+}
+table
+{
+	background-color: #FFFFFF;
+	vertical-align center;
+	text-align: center;
+	border-collapse: collapse;
+	width: 50%;
+	margin: auto;
+	border-color: #FFFFFF;
+	color: #000000;
+}
+td
+{
+	vertical-align: center;
+	padding: 20px;
+}
+th
+{
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	color: #000000;
+	vertical-align: center;
+	padding: 15px;
+}
+tr:nth-child(even)
+{
+	color: #FFFFFF;
+	background-color: #000000;
+}
+tr:hover
+{
+	background-color: #919191;
+}
